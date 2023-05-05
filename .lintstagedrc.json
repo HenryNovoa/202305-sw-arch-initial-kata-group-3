@@ -1,5 +1,4 @@
 {
-  "------": "This file is used to run commands when files that are staged are to be commited",
   "*.{ts,tsx}": "eslint",
   "*.{ts,tsx,css,json,md}": "prettier --write"
 }
