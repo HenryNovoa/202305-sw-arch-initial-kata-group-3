@@ -1,1 +1,1 @@
-export const hello = 'HELLO CONFIGSS';
+export const hello = 'HELLO CONFIGS';
