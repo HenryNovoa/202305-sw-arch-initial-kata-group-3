@@ -1,5 +1,3 @@
-// Without this file, eslint will not work with typescript, and gives weird errors
-
 module.exports = {
   env: {
     node: true,
