@@ -1,6 +1,4 @@
-export interface Sequence {
-  increase(): number;
-}
+import Sequence from './interfaces/sequence';
 
 export default class TurnNumberSequence implements Sequence {
   private turnNumber: number;

@@ -1,9 +1,7 @@
-import { Sequence } from './turn-number-sequence';
-import TurnTicket, { Ticket } from './turn-ticket';
-
-export interface Dispenser {
-  generateTicket(): Ticket;
-}
+import Dispenser from './interfaces/dispenser';
+import Sequence from './interfaces/sequence';
+import Ticket from './interfaces/ticket';
+import TurnTicket from './turn-ticket';
 
 export default class TicketDispenser implements Dispenser {
   private sequence: Sequence;

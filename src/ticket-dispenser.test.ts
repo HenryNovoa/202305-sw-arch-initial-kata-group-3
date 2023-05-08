@@ -1,6 +1,6 @@
+import Ticket from './interfaces/ticket';
 import TicketDispenser from './ticket-dispenser';
 import TurnNumberSequence from './turn-number-sequence';
-import { Ticket } from './turn-ticket';
 
 describe('[TicketDispenser]', () => {
   it('should return a new ticket', () => {

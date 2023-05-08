@@ -1,7 +1,4 @@
-export interface Ticket {
-  getNumber(): number;
-}
-
+import Ticket from './interfaces/ticket';
 export default class TurnTicket implements Ticket {
   private turnNumber: number;
 
